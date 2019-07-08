@@ -84,7 +84,7 @@ def clearAll(board, sym):
 #
 def vLineAt(board, line, column):
   boolean = False
-  if line != None and column != None and (line>=2 or line == (len(board))):
+  if line != None and column != None and (line>=2 or line == (len(board)-1)):
     if (board[line][column] == board[line-1][column] and board[line][column] == board[line-2][column]):
       boolean = True
   if line != None and column != None and (line>=1 and line<(len(board)-1)):
@@ -97,7 +97,7 @@ def vLineAt(board, line, column):
 
 def hLineAt(board, line, column):
   boolean = False
-  if line != None and column != None and (column>=2 or column == (len(board[line]))):
+  if line != None and column != None and (column>=2 or column == (len(board[line])-1)):
     if (board[line][column] == board[line][column-1] and board[line][column] == board[line][column-2]):
       boolean = True
   if line != None and column != None and (column>=1 and column<(len(board[line])-1)):
