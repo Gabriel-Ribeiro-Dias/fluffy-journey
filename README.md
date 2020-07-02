@@ -1,2 +1,2 @@
 # fluffy-journey
-Repositório para projetos pessoas e acadêmicos.
+Repositório para projetos pessoais e acadêmicos.
