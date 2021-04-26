@@ -5,7 +5,7 @@
         "label": "Casos totais no Nordeste",
         "backgroundColor": "#FBBC56",
         "borderColor": "#FBBC56",
-        data: [0, 10, 5, 2, 20, 30, 45],
+        "data": [0, 10, 5, 2, 20, 30, 45],
       },
       {
         "label": "Casos entre trabalhadores da saúde",
